@@ -1,0 +1,88 @@
+2024-11-21T16:57:36.624+05:30  INFO 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Starting LombokApplication using Java 21.0.3 with PID 5328 (C:\Users\PC\Downloads\lombok (1)\lombok\target\classes started by PC in C:\Users\PC\Downloads\lombok (1)\lombok)
+2024-11-21T16:57:36.635+05:30 DEBUG 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-21T16:57:36.638+05:30  INFO 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T16:57:39.438+05:30  INFO 5328 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T16:57:39.778+05:30  INFO 5328 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272 ms. Found 1 JPA repository interface.
+2024-11-21T16:57:42.004+05:30  INFO 5328 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T16:57:42.060+05:30  INFO 5328 --- [lomb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T16:57:42.061+05:30  INFO 5328 --- [lomb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T16:57:42.315+05:30  INFO 5328 --- [lomb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T16:57:42.316+05:30  INFO 5328 --- [lomb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5429 ms
+2024-11-21T16:57:42.422+05:30  INFO 5328 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T16:57:43.192+05:30  INFO 5328 --- [lomb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T16:57:43.202+05:30  INFO 5328 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T16:57:43.235+05:30  INFO 5328 --- [lomb] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T16:57:43.768+05:30  INFO 5328 --- [lomb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T16:57:43.993+05:30  INFO 5328 --- [lomb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T16:57:44.185+05:30  INFO 5328 --- [lomb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T16:57:45.438+05:30  INFO 5328 --- [lomb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T16:57:48.066+05:30  INFO 5328 --- [lomb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T16:57:48.199+05:30  INFO 5328 --- [lomb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T16:57:49.160+05:30  WARN 5328 --- [lomb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T16:57:50.445+05:30  INFO 5328 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T16:57:50.473+05:30  INFO 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Started LombokApplication in 15.763 seconds (process running for 17.66)
+2024-11-21T16:57:50.482+05:30  INFO 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Info Level
+2024-11-21T16:57:50.483+05:30 ERROR 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Error level
+2024-11-21T16:57:50.483+05:30 DEBUG 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Debuf level
+2024-11-21T16:57:50.484+05:30  WARN 5328 --- [lomb] [main] com.example.lombok.LombokApplication     : Warn level
+2024-11-21T17:16:11.589+05:30  INFO 5328 --- [lomb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T17:16:11.599+05:30  INFO 5328 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T17:16:11.606+05:30  INFO 5328 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T17:30:42.362+05:30  INFO 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Starting LombokApplication using Java 21.0.3 with PID 9832 (C:\Users\PC\Downloads\lombok (1)\lombok\target\classes started by PC in C:\Users\PC\Downloads\lombok (1)\lombok)
+2024-11-21T17:30:42.373+05:30 DEBUG 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-21T17:30:42.376+05:30  INFO 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T17:30:45.199+05:30  INFO 9832 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T17:30:45.615+05:30  INFO 9832 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 1 JPA repository interface.
+2024-11-21T17:30:47.824+05:30  INFO 9832 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T17:30:47.873+05:30  INFO 9832 --- [lomb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T17:30:47.874+05:30  INFO 9832 --- [lomb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T17:30:48.150+05:30  INFO 9832 --- [lomb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T17:30:48.152+05:30  INFO 9832 --- [lomb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5527 ms
+2024-11-21T17:30:48.281+05:30  INFO 9832 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T17:30:48.992+05:30  INFO 9832 --- [lomb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T17:30:48.998+05:30  INFO 9832 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T17:30:49.032+05:30  INFO 9832 --- [lomb] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T17:30:49.679+05:30  INFO 9832 --- [lomb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T17:30:49.961+05:30  INFO 9832 --- [lomb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T17:30:50.096+05:30  INFO 9832 --- [lomb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T17:30:51.352+05:30  INFO 9832 --- [lomb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T17:30:54.057+05:30  INFO 9832 --- [lomb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T17:30:54.168+05:30  INFO 9832 --- [lomb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T17:30:55.091+05:30  WARN 9832 --- [lomb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T17:30:57.454+05:30  INFO 9832 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T17:30:57.488+05:30  INFO 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Started LombokApplication in 17.038 seconds (process running for 18.917)
+2024-11-21T17:30:57.512+05:30  INFO 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Info Level
+2024-11-21T17:30:57.516+05:30 ERROR 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Error level
+2024-11-21T17:30:57.523+05:30 DEBUG 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Debuf level
+2024-11-21T17:30:57.527+05:30  WARN 9832 --- [lomb] [main] com.example.lombok.LombokApplication     : Warn level
+2024-11-21T17:32:49.614+05:30  INFO 9832 --- [lomb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T17:32:49.624+05:30  INFO 9832 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T17:32:49.630+05:30  INFO 9832 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T17:33:24.597+05:30  INFO 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : Starting LombokApplication using Java 21.0.3 with PID 13460 (C:\Users\PC\Downloads\lombok (1)\lombok\target\classes started by PC in C:\Users\PC\Downloads\lombok (1)\lombok)
+2024-11-21T17:33:24.606+05:30  INFO 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T17:33:27.502+05:30  INFO 13460 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T17:33:27.968+05:30  INFO 13460 --- [lomb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 396 ms. Found 1 JPA repository interface.
+2024-11-21T17:33:30.660+05:30  INFO 13460 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T17:33:30.712+05:30  INFO 13460 --- [lomb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T17:33:30.713+05:30  INFO 13460 --- [lomb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T17:33:31.013+05:30  INFO 13460 --- [lomb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T17:33:31.014+05:30  INFO 13460 --- [lomb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6167 ms
+2024-11-21T17:33:31.445+05:30  INFO 13460 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T17:33:32.326+05:30  INFO 13460 --- [lomb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T17:33:32.331+05:30  INFO 13460 --- [lomb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T17:33:32.364+05:30  INFO 13460 --- [lomb] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T17:33:33.021+05:30  INFO 13460 --- [lomb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T17:33:33.321+05:30  INFO 13460 --- [lomb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T17:33:33.610+05:30  INFO 13460 --- [lomb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T17:33:34.992+05:30  INFO 13460 --- [lomb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T17:33:37.876+05:30  INFO 13460 --- [lomb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T17:33:37.992+05:30  INFO 13460 --- [lomb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T17:33:38.956+05:30  WARN 13460 --- [lomb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T17:33:40.347+05:30  INFO 13460 --- [lomb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T17:33:40.404+05:30  INFO 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : Started LombokApplication in 17.699 seconds (process running for 19.415)
+2024-11-21T17:33:40.415+05:30  INFO 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : Info Level
+2024-11-21T17:33:40.415+05:30 ERROR 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : Error level
+2024-11-21T17:33:40.415+05:30  WARN 13460 --- [lomb] [main] com.example.lombok.LombokApplication     : Warn level
+2024-11-21T17:42:03.328+05:30  INFO 13460 --- [lomb] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T17:42:03.338+05:30  INFO 13460 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T17:42:03.349+05:30  INFO 13460 --- [lomb] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
